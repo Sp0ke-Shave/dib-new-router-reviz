@@ -1,4 +1,4 @@
-#Setting and load
+# Reading data and loading libraries ----
 
 #loading libraries
 library(tidyverse)
@@ -84,50 +84,7 @@ rm(Base_line_2.4_and_5, New_5)
 
 tidy_pairs <- HW %>%
   rbind(mobile_2.4,
-        mobile_5)​
-91
-# Trying a scatter plot ----
-92
-​
-93
-#Down only
-94
-tidy_pairs %>%
-95
-  filter(Direction == "Up" ) %>%
-96
-  ggplot(aes(x= Old_Speed, y = New_Speed, col = Type, fill = Type, shape = Device_1))  +
-97
-  geom_point() +
-98
-  geom_jitter() +
-99
-  facet_wrap(~Location)
-100
-​
-101
-# Don't really like it 
-102
-​
-103
-# Boxplot again ----
-104
-tidy_pairs %>%
-105
-  mutate(Plot = paste(tidy_pairs$Location, tidy_pairs$Device_1, tidy_pairs$Type, sep = "-")) %>%
-106
- 
-107
-  mutate(Pct_change = (New_Speed -
-108
-          Old_Speed) / Old_Speed) %>%
-109
-  ggplot(aes(y = Pct_change, x = Direction, fill = Type)) +
-110
-  geom_boxplot() +
-111
-  facet_wrap(~Plot)
-112
+        mobile_5)
 
 
 rm(HW, mobile_2.4, mobile_5, raw)
