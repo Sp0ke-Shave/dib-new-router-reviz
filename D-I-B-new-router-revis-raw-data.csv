@@ -1,91 +1,111 @@
-Hardware,Tech,Device,Direction,Test_No,Speed (Mbps)
-Old – Arris,Arris Router,Downstairs Lap,Down,1,70.71
-Old – Arris,Arris Router,Downstairs Lap,Down,2,74.35
-Old – Arris,Arris Router,Downstairs Lap,Down,3,53.08
-Old – Arris,Arris Router,Downstairs Lap,Down,4,62.05
-Old – Arris,Arris Router,Downstairs Lap,Down,5,48.41
-Old – Arris,Arris Router,Downstairs Lap,Up,1,11.24
-Old – Arris,Arris Router,Downstairs Lap,Up,2,11.27
-Old – Arris,Arris Router,Downstairs Lap,Up,3,10.7
-Old – Arris,Arris Router,Downstairs Lap,Up,4,11.29
-Old – Arris,Arris Router,Downstairs Lap,Up,5,11.25
-Old – Arris,Arris Router,Upstairs Lap,Down,1,28.45
-Old – Arris,Arris Router,Upstairs Lap,Down,2,4.57
-Old – Arris,Arris Router,Upstairs Lap,Down,3,23.92
-Old – Arris,Arris Router,Upstairs Lap,Down,4,28.83
-Old – Arris,Arris Router,Upstairs Lap,Down,5,30.05
-Old – Arris,Arris Router,Upstairs Lap,Up,1,11.09
-Old – Arris,Arris Router,Upstairs Lap,Up,2,10.84
-Old – Arris,Arris Router,Upstairs Lap,Up,3,10.54
-Old – Arris,Arris Router,Upstairs Lap,Up,4,10.97
-Old – Arris,Arris Router,Upstairs Lap,Up,5,9.27
-Old – Arris,Arris Router,HW-Desktop,Down,1,59.6
-Old – Arris,Arris Router,HW-Desktop,Down,2,61.4
-Old – Arris,Arris Router,HW-Desktop,Down,3,92.34
-Old – Arris,Arris Router,HW-Desktop,Down,4,90.7
-Old – Arris,Arris Router,HW-Desktop,Down,5,91.45
-Old – Arris,Arris Router,HW-Desktop,Up,1,11.02
-Old – Arris,Arris Router,HW-Desktop,Up,2,10.7
-Old – Arris,Arris Router,HW-Desktop,Up,3,11.19
-Old – Arris,Arris Router,HW-Desktop,Up,4,11
-Old – Arris,Arris Router,HW-Desktop,Up,5,11.19
-Old – Arris,Arris Router,Phone,Down,1,79.9
-Old – Arris,Arris Router,Phone,Down,2,81
-Old – Arris,Arris Router,Phone,Down,3,67.5
-Old – Arris,Arris Router,Phone,Down,4,59.7
-Old – Arris,Arris Router,Phone,Down,5,71.4
-Old – Arris,Arris Router,Phone,Up,1,10.8
-Old – Arris,Arris Router,Phone,Up,2,11.1
-Old – Arris,Arris Router,Phone,Up,3,10.7
-Old – Arris,Arris Router,Phone,Up,4,11.5
-Old – Arris,Arris Router,Phone,Up,5,11.1
-New – Netgear,5G,Downstairs Lap,Down,1,110.11
-New – Netgear,5G,Downstairs Lap,Down,2,113.4
-New – Netgear,5G,Downstairs Lap,Down,3,108.9
-New – Netgear,5G,Downstairs Lap,Down,4,113.9
-New – Netgear,5G,Downstairs Lap,Down,5,115.24
-New – Netgear,5G,Downstairs Lap,Up,1,11.49
-New – Netgear,5G,Downstairs Lap,Up,2,11.47
-New – Netgear,5G,Downstairs Lap,Up,3,9.5
-New – Netgear,5G,Downstairs Lap,Up,4,11.46
-New – Netgear,5G,Downstairs Lap,Up,5,9
-New – Netgear,5G,Upstairs Lap,Down,1,80.24
-New – Netgear,5G,Upstairs Lap,Down,2,115
-New – Netgear,5G,Upstairs Lap,Down,3,115.11
-New – Netgear,5G,Upstairs Lap,Down,4,114.66
-New – Netgear,5G,Upstairs Lap,Down,5,112.2
-New – Netgear,5G,Upstairs Lap,Up,1,11.5
-New – Netgear,5G,Upstairs Lap,Up,2,11.4
-New – Netgear,5G,Upstairs Lap,Up,3,11.4
-New – Netgear,5G,Upstairs Lap,Up,4,11.4
-New – Netgear,5G,Upstairs Lap,Up,5,11.4
-New – Netgear,Hard wire,HW-Desktop,Down,1,115.05
-New – Netgear,Hard wire,HW-Desktop,Down,2,115.06
-New – Netgear,Hard wire,HW-Desktop,Down,3,113.42
-New – Netgear,Hard wire,HW-Desktop,Down,4,115.26
-New – Netgear,Hard wire,HW-Desktop,Down,5,115.29
-New – Netgear,Hard wire,HW-Desktop,Up,1,11.5
-New – Netgear,Hard wire,HW-Desktop,Up,2,11.5
-New – Netgear,Hard wire,HW-Desktop,Up,3,11.51
-New – Netgear,Hard wire,HW-Desktop,Up,4,11.53
-New – Netgear,Hard wire,HW-Desktop,Up,5,11.53
-New – Netgear,2.4G,Downstairs Lap,Down,1,43.97
-New – Netgear,2.4G,Downstairs Lap,Down,2,35.19
-New – Netgear,2.4G,Downstairs Lap,Down,3,31.14
-New – Netgear,2.4G,Downstairs Lap,Down,4,24.31
-New – Netgear,2.4G,Downstairs Lap,Down,5,49.01
-New – Netgear,2.4G,Downstairs Lap,Up,1,11.51
-New – Netgear,2.4G,Downstairs Lap,Up,2,10
-New – Netgear,2.4G,Downstairs Lap,Up,3,11.49
-New – Netgear,2.4G,Downstairs Lap,Up,4,11.48
-New – Netgear,2.4G,Downstairs Lap,Up,5,11.56
-New – Netgear,2.4G,Upstairs Lap,Up,1,41.2
-New – Netgear,2.4G,Upstairs Lap,Up,2,38.94
-New – Netgear,2.4G,Upstairs Lap,Up,3,51.15
-New – Netgear,2.4G,Upstairs Lap,Up,4,33.6
-New – Netgear,2.4G,Upstairs Lap,Up,5,38.6
-New – Netgear,2.4G,Upstairs Lap,Down,1,11.5
-New – Netgear,2.4G,Upstairs Lap,Down,2,11.5
-New – Netgear,2.4G,Upstairs Lap,Down,3,11.5
-New – Netgear,2.4G,Upstairs Lap,Down,4,11.51
-New – Netgear,2.4G,Upstairs Lap,Down,5,11.5
+Hardware,Tech,Device,Direction,Test_No,Speed (Mbps),Device,Connection,Location
+Old – Arris,Arris Router,Downstairs Lap,Down,1,70.71,Laptop,Old,Downstairs
+Old – Arris,Arris Router,Downstairs Lap,Down,2,74.35,Laptop,Old,Downstairs
+Old – Arris,Arris Router,Downstairs Lap,Down,3,53.08,Laptop,Old,Downstairs
+Old – Arris,Arris Router,Downstairs Lap,Down,4,62.05,Laptop,Old,Downstairs
+Old – Arris,Arris Router,Downstairs Lap,Down,5,48.41,Laptop,Old,Downstairs
+Old – Arris,Arris Router,Downstairs Lap,Up,1,11.24,Laptop,Old,Downstairs
+Old – Arris,Arris Router,Downstairs Lap,Up,2,11.27,Laptop,Old,Downstairs
+Old – Arris,Arris Router,Downstairs Lap,Up,3,10.7,Laptop,Old,Downstairs
+Old – Arris,Arris Router,Downstairs Lap,Up,4,11.29,Laptop,Old,Downstairs
+Old – Arris,Arris Router,Downstairs Lap,Up,5,11.25,Laptop,Old,Downstairs
+Old – Arris,Arris Router,Upstairs Lap,Down,1,28.45,Laptop,Old,Upstairs
+Old – Arris,Arris Router,Upstairs Lap,Down,2,4.57,Laptop,Old,Upstairs
+Old – Arris,Arris Router,Upstairs Lap,Down,3,23.92,Laptop,Old,Upstairs
+Old – Arris,Arris Router,Upstairs Lap,Down,4,28.83,Laptop,Old,Upstairs
+Old – Arris,Arris Router,Upstairs Lap,Down,5,30.05,Laptop,Old,Upstairs
+Old – Arris,Arris Router,Upstairs Lap,Up,1,11.09,Laptop,Old,Upstairs
+Old – Arris,Arris Router,Upstairs Lap,Up,2,10.84,Laptop,Old,Upstairs
+Old – Arris,Arris Router,Upstairs Lap,Up,3,10.54,Laptop,Old,Upstairs
+Old – Arris,Arris Router,Upstairs Lap,Up,4,10.97,Laptop,Old,Upstairs
+Old – Arris,Arris Router,Upstairs Lap,Up,5,9.27,Laptop,Old,Upstairs
+Old – Arris,Arris Router,HW-Desktop,Down,1,59.6,Desktop,Old-HW,Desktop
+Old – Arris,Arris Router,HW-Desktop,Down,2,61.4,Desktop,Old-HW,Desktop
+Old – Arris,Arris Router,HW-Desktop,Down,3,92.34,Desktop,Old-HW,Desktop
+Old – Arris,Arris Router,HW-Desktop,Down,4,90.7,Desktop,Old-HW,Desktop
+Old – Arris,Arris Router,HW-Desktop,Down,5,91.45,Desktop,Old-HW,Desktop
+Old – Arris,Arris Router,HW-Desktop,Up,1,11.02,Desktop,Old-HW,Desktop
+Old – Arris,Arris Router,HW-Desktop,Up,2,10.7,Desktop,Old-HW,Desktop
+Old – Arris,Arris Router,HW-Desktop,Up,3,11.19,Desktop,Old-HW,Desktop
+Old – Arris,Arris Router,HW-Desktop,Up,4,11,Desktop,Old-HW,Desktop
+Old – Arris,Arris Router,HW-Desktop,Up,5,11.19,Desktop,Old-HW,Desktop
+Old – Arris,Arris Router,Phone,Down,1,79.9,Phone,Old,Downstairs
+Old – Arris,Arris Router,Phone,Down,2,81,Phone,Old,Downstairs
+Old – Arris,Arris Router,Phone,Down,3,67.5,Phone,Old,Downstairs
+Old – Arris,Arris Router,Phone,Down,4,59.7,Phone,Old,Downstairs
+Old – Arris,Arris Router,Phone,Down,5,71.4,Phone,Old,Downstairs
+Old – Arris,Arris Router,Phone,Up,1,10.8,Phone,Old,Downstairs
+Old – Arris,Arris Router,Phone,Up,2,11.1,Phone,Old,Downstairs
+Old – Arris,Arris Router,Phone,Up,3,10.7,Phone,Old,Downstairs
+Old – Arris,Arris Router,Phone,Up,4,11.5,Phone,Old,Downstairs
+Old – Arris,Arris Router,Phone,Up,5,11.1,Phone,Old,Downstairs
+New – Netgear,5G,Downstairs Lap,Down,1,110.11,Phone,5G,Downstairs
+New – Netgear,5G,Downstairs Lap,Down,2,113.4,Phone,5G,Downstairs
+New – Netgear,5G,Downstairs Lap,Down,3,108.9,Phone,5G,Downstairs
+New – Netgear,5G,Downstairs Lap,Down,4,113.9,Phone,5G,Downstairs
+New – Netgear,5G,Downstairs Lap,Down,5,115.24,Phone,5G,Downstairs
+New – Netgear,5G,Downstairs Lap,Up,1,11.49,Phone,5G,Downstairs
+New – Netgear,5G,Downstairs Lap,Up,2,11.47,Phone,5G,Downstairs
+New – Netgear,5G,Downstairs Lap,Up,3,9.5,Phone,5G,Downstairs
+New – Netgear,5G,Downstairs Lap,Up,4,11.46,Phone,5G,Downstairs
+New – Netgear,5G,Downstairs Lap,Up,5,9,Phone,5G,Downstairs
+New – Netgear,5G,Upstairs Lap,Down,1,80.24,Phone,5G,Upstairs
+New – Netgear,5G,Upstairs Lap,Down,2,115,Phone,5G,Upstairs
+New – Netgear,5G,Upstairs Lap,Down,3,115.11,Phone,5G,Upstairs
+New – Netgear,5G,Upstairs Lap,Down,4,114.66,Phone,5G,Upstairs
+New – Netgear,5G,Upstairs Lap,Down,5,112.2,Phone,5G,Upstairs
+New – Netgear,5G,Upstairs Lap,Up,1,11.5,Phone,5G,Upstairs
+New – Netgear,5G,Upstairs Lap,Up,2,11.4,Phone,5G,Upstairs
+New – Netgear,5G,Upstairs Lap,Up,3,11.4,Phone,5G,Upstairs
+New – Netgear,5G,Upstairs Lap,Up,4,11.4,Phone,5G,Upstairs
+New – Netgear,5G,Upstairs Lap,Up,5,11.4,Phone,5G,Upstairs
+New – Netgear,Hard wire,HW-Desktop,Down,1,115.05,Desktop,New-HW,Desktop
+New – Netgear,Hard wire,HW-Desktop,Down,2,115.06,Desktop,New-HW,Desktop
+New – Netgear,Hard wire,HW-Desktop,Down,3,113.42,Desktop,New-HW,Desktop
+New – Netgear,Hard wire,HW-Desktop,Down,4,115.26,Desktop,New-HW,Desktop
+New – Netgear,Hard wire,HW-Desktop,Down,5,115.29,Desktop,New-HW,Desktop
+New – Netgear,Hard wire,HW-Desktop,Up,1,11.5,Desktop,New-HW,Desktop
+New – Netgear,Hard wire,HW-Desktop,Up,2,11.5,Desktop,New-HW,Desktop
+New – Netgear,Hard wire,HW-Desktop,Up,3,11.51,Desktop,New-HW,Desktop
+New – Netgear,Hard wire,HW-Desktop,Up,4,11.53,Desktop,New-HW,Desktop
+New – Netgear,Hard wire,HW-Desktop,Up,5,11.53,Desktop,New-HW,Desktop
+New – Netgear,2.4G,Downstairs Lap,Down,1,43.97,Laptop,2.4G,Downstairs
+New – Netgear,2.4G,Downstairs Lap,Down,2,35.19,Laptop,2.4G,Downstairs
+New – Netgear,2.4G,Downstairs Lap,Down,3,31.14,Laptop,2.4G,Downstairs
+New – Netgear,2.4G,Downstairs Lap,Down,4,24.31,Laptop,2.4G,Downstairs
+New – Netgear,2.4G,Downstairs Lap,Down,5,49.01,Laptop,2.4G,Downstairs
+New – Netgear,2.4G,Downstairs Lap,Up,1,11.51,Laptop,2.4G,Downstairs
+New – Netgear,2.4G,Downstairs Lap,Up,2,10,Laptop,2.4G,Downstairs
+New – Netgear,2.4G,Downstairs Lap,Up,3,11.49,Laptop,2.4G,Downstairs
+New – Netgear,2.4G,Downstairs Lap,Up,4,11.48,Laptop,2.4G,Downstairs
+New – Netgear,2.4G,Downstairs Lap,Up,5,11.56,Laptop,2.4G,Downstairs
+New – Netgear,2.4G,Upstairs Lap,Down,1,41.2,Laptop,2.4G,Upstairs
+New – Netgear,2.4G,Upstairs Lap,Down,2,38.94,Laptop,2.4G,Upstairs
+New – Netgear,2.4G,Upstairs Lap,Down,3,51.15,Laptop,2.4G,Upstairs
+New – Netgear,2.4G,Upstairs Lap,Down,4,33.6,Laptop,2.4G,Upstairs
+New – Netgear,2.4G,Upstairs Lap,Down,5,38.6,Laptop,2.4G,Upstairs
+New – Netgear,2.4G,Upstairs Lap,Up,1,11.5,Laptop,2.4G,Upstairs
+New – Netgear,2.4G,Upstairs Lap,Up,2,11.5,Laptop,2.4G,Upstairs
+New – Netgear,2.4G,Upstairs Lap,Up,3,11.5,Laptop,2.4G,Upstairs
+New – Netgear,2.4G,Upstairs Lap,Up,4,11.51,Laptop,2.4G,Upstairs
+New – Netgear,2.4G,Upstairs Lap,Up,5,11.5,Laptop,2.4G,Upstairs
+New – Netgear,5G,Phone,Down,1,114,Phone,5G,Downstairs
+New – Netgear,5G,Phone,Down,2,114,Phone,5G,Downstairs
+New – Netgear,5G,Phone,Down,3,113,Phone,5G,Downstairs
+New – Netgear,5G,Phone,Down,4,113,Phone,5G,Downstairs
+New – Netgear,5G,Phone,Down,5,113,Phone,5G,Downstairs
+New – Netgear,5G,Phone,Up,1,11.5,Phone,5G,Downstairs
+New – Netgear,5G,Phone,Up,2,11.4,Phone,5G,Downstairs
+New – Netgear,5G,Phone,Up,3,11.4,Phone,5G,Downstairs
+New – Netgear,5G,Phone,Up,4,11.4,Phone,5G,Downstairs
+New – Netgear,5G,Phone,Up,5,11.4,Phone,5G,Downstairs
+New – Netgear,2.4G,Phone,Down,1,69,Phone,2.4G,Downstairs
+New – Netgear,2.4G,Phone,Down,2,67.9,Phone,2.4G,Downstairs
+New – Netgear,2.4G,Phone,Down,3,67.3,Phone,2.4G,Downstairs
+New – Netgear,2.4G,Phone,Down,4,38.4,Phone,2.4G,Downstairs
+New – Netgear,2.4G,Phone,Down,5,53.2,Phone,2.4G,Downstairs
+New – Netgear,2.4G,Phone,Up,1,11.4,Phone,2.4G,Downstairs
+New – Netgear,2.4G,Phone,Up,2,11,Phone,2.4G,Downstairs
+New – Netgear,2.4G,Phone,Up,3,11.3,Phone,2.4G,Downstairs
+New – Netgear,2.4G,Phone,Up,4,11,Phone,2.4G,Downstairs
+New – Netgear,2.4G,Phone,Up,5,10.8,Phone,2.4G,Downstairs
