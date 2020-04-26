@@ -7,27 +7,12 @@ library(lemon)
 
 raw <- read_delim('D-I-B-new-router-revis-raw-data.csv', delim = ',')
 
-# Boxplots ----
-
-# I tried some box plots but I don't like them - too many categories. 
-
-raw %>%
-  #Filtering Up only
-  filter(Direction == "Up") %>%
-
-  ggplot(aes(y = `Speed (Mbps)`, x = Hardware)) +
-  geom_boxplot()+ 
-  facet_grid(Connection~Device_1) + 
-  theme_few() + 
-  theme(axis.text = element_text())+
-  theme(axis.text.x = element_text(angle = 90))
-
-# re-wrangling the data for scatter plots ---- 
+# re-wrangling the data 
 
 # Way forward is to have comparisons so there are two numbers for each test old and new. 
 # This means that the old values will have to double as old for 2.4g and 5g. But that is OK. 
 
-# HW data ----
+# Hard wired (HW) data ----
 
 Base_line_HW <- raw %>%
   mutate(Old_Speed = raw$`Speed (Mbps)`) %>%
@@ -99,33 +84,55 @@ rm(Base_line_2.4_and_5, New_5)
 
 tidy_pairs <- HW %>%
   rbind(mobile_2.4,
-        mobile_5)
+        mobile_5)​
+91
+# Trying a scatter plot ----
+92
+​
+93
+#Down only
+94
+tidy_pairs %>%
+95
+  filter(Direction == "Up" ) %>%
+96
+  ggplot(aes(x= Old_Speed, y = New_Speed, col = Type, fill = Type, shape = Device_1))  +
+97
+  geom_point() +
+98
+  geom_jitter() +
+99
+  facet_wrap(~Location)
+100
+​
+101
+# Don't really like it 
+102
+​
+103
+# Boxplot again ----
+104
+tidy_pairs %>%
+105
+  mutate(Plot = paste(tidy_pairs$Location, tidy_pairs$Device_1, tidy_pairs$Type, sep = "-")) %>%
+106
+ 
+107
+  mutate(Pct_change = (New_Speed -
+108
+          Old_Speed) / Old_Speed) %>%
+109
+  ggplot(aes(y = Pct_change, x = Direction, fill = Type)) +
+110
+  geom_boxplot() +
+111
+  facet_wrap(~Plot)
+112
+
 
 rm(HW, mobile_2.4, mobile_5, raw)
 
-# Trying a scatter plot ----
-
-#Down only
-tidy_pairs %>%
-  filter(Direction == "Up" ) %>%
-  ggplot(aes(x= Old_Speed, y = New_Speed, col = Type, fill = Type, shape = Device_1))  +
-  geom_point() +
-  geom_jitter() +
-  facet_wrap(~Location)
-
-# Don't really like it 
-
-# Boxplot again ----
-tidy_pairs %>%
-  mutate(Plot = paste(tidy_pairs$Location, tidy_pairs$Device_1, tidy_pairs$Type, sep = "-")) %>%
- 
-  mutate(Pct_change = (New_Speed -
-          Old_Speed) / Old_Speed) %>%
-  ggplot(aes(y = Pct_change, x = Direction, fill = Type)) +
-  geom_boxplot() +
-  facet_wrap(~Plot)
-
-# Try again, plotting new vs old rather than pct difference ----
+#Plotting new vs old withe a point plot ----
 
 tidy_pairs %>%  
   # Gathering the old and new speed into one column
@@ -135,6 +142,7 @@ tidy_pairs %>%
   # Plotting
   ggplot(aes(x = Direction, y = Speed, fill = System, col = System)) +
   geom_point(size = 2) +
+  # Need the gitter to stop a bunch of points landing on top of each other.
   geom_jitter(size = 2, width = .25) + 
   facet_rep_wrap(~plot, repeat.tick.labels = 'bottom') +
   theme(legend.position = c(.8,.1), 
@@ -145,5 +153,3 @@ tidy_pairs %>%
        subtitle = "https://www.reddit.com/r/dataisbeautiful/comments/g263d8/oc_got_a_new_routerwireless_setup_ill_take_any/",
        caption = "Code and dtails available from here: https://github.com/Sp0ke-Shave/dib-new-router-reviz",
        x = NULL) 
-
-# I like this one 
